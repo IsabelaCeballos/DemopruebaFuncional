@@ -1,4 +1,4 @@
-# Prueba funcional atumatizada
+# Prueba funcional automatizada
 Test funcional para el log in en Google utilizando POM (Page Object Model)
 
 ## Instalación
