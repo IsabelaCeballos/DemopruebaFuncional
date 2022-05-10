@@ -5,6 +5,7 @@ import net.thucydides.core.annotations.Step;
 public class GoogleAccountStep {
     GoogleAccountPageObject googleAccountPageObject = new GoogleAccountPageObject();
 
+    //esta clase se realizar para decirle a serenity a cual acción es que debe tomarle foto
     @Step
     public void abrirNavegador() { googleAccountPageObject.open();}
 
@@ -30,6 +31,5 @@ public class GoogleAccountStep {
 
     @Step
     public void validarIngreso() { googleAccountPageObject.validarIngreso(); }
-
 
 }

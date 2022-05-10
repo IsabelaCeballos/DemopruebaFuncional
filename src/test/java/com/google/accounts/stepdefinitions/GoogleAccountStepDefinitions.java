@@ -7,7 +7,8 @@ import net.thucydides.core.annotations.Step;
 import net.thucydides.core.annotations.Steps;
 
 public class GoogleAccountStepDefinitions {
-
+    //contiene los métodos principales de las acciones que se van a hacer en el navegador
+    //es donde se plasma lo que realiza cucumber
     @Steps
     GoogleAccountStep googleAccountStep;
     @Given("user is in the Gmail page")

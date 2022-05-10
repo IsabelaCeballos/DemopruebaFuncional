@@ -9,12 +9,14 @@ import org.openqa.selenium.By;
 
 public class GoogleAccountPageObject extends PageObject{
 
+        //mapeo, buscar la ruta de los elementos que requiero para la prueba
         By txtIngresarUsuario = By.id("identifierId");
         By btnSiguienteUser = By.xpath("//*[@id=\"identifierNext\"]/div/button");
         By txtPassword = By.xpath("//*[@id=\"password\"]/div[1]/div/div[1]/input");
         By btnSiguientePassword = By.xpath("//*[@id=\"passwordNext\"]/div/button");
-
         By validacionIngreso = By.xpath("/html/body/div[7]/div[3]/div/div[2]/div[1]/div[1]/div[3]/div[2]/div[1]");
+
+        //son las acciones que se van a realizar sobre lo elementos seleccionados
         public void ingresarUsuario(){
             getDriver().findElement(txtIngresarUsuario).sendKeys("isaydaniceballosjurado@gmail.com");
         }
